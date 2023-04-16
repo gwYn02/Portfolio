@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<?php include("counter.php"); ?>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -40,6 +41,7 @@
 							</li>
 							<li><a href="https://gwyn02.github.io/Resume/">Resume</a></li> <!--"elements.html"-->
 							<li><a href="mailto:gwynsulpico@icloud.com" class="button primary">Contact me</a></li>
+							<li><span class="counter">Total Page Visits:    <?php echo $total_visits; ?></span></li>
 						</ul>
 					</nav>
 				</header>
